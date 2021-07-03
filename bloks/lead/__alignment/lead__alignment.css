@@ -1,0 +1,5 @@
+.lead__alignment {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}

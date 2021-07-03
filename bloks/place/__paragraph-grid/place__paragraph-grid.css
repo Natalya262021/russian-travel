@@ -1,0 +1,6 @@
+@media screen and (min-width:768px) {
+    .place__paragraph-grid {
+        grid-area: paragraph;
+        text-align: start;
+    }
+}
