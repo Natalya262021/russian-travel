@@ -11,3 +11,4 @@
 Поправить при помощи flex блок cover
 
 Проект создан на трёх языках кодирования HTML CSS Markdown по БЭМ-методологии
+[Ссылка][ https://natalya262021.github.io/russian-travel/index.html ]
