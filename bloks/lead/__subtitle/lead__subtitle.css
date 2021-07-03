@@ -4,14 +4,12 @@
     text-align: center;
     margin: auto;
     max-width: 288px;
-    max-height: 40px;
     padding-top: 15px;
 }
 @media screen and (min-width:425px) and (min-width:768px) {
     .lead__subtitle {
         font-size: 30px;
         min-width: 640px;
-        min-height: 72px;
         margin: auto;
         line-height: 1.1;
         padding-top: 38px;
