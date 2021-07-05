@@ -1,0 +1,31 @@
+.cover__overlay {
+    width: 320px;
+    height: 200px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: rgba(42, 44, 47, .3);
+    position:absolute;/*по чек-листу можно,надеюсь верно поняла*/
+    
+}
+.cover__overlay:hover {
+    background-color: rgba(42, 44, 47, .6);
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .cover__overlay {
+        width: 100%;
+        height: 480px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .cover__overlay {
+        width: 100%;
+        height: 640px;
+    }
+}
+@media screen and (min-width:1280px){
+    .cover__overlay {
+        width: 1184px;
+        height: 740px;
+    }
+}
+
