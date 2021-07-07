@@ -2,19 +2,22 @@
 @media screen and (min-width:768px) and (max-width:1024px){
     .places{
         display: grid;
-        
+        max-width: 740px;
     }
 }
 @media screen and (min-width:1024px) and (max-width:1280px) {
     .places{
         display: grid;
         padding-left: 25px;
+        max-width: 928px;
     }
 }
 @media screen and (min-width:1280px){
     .places{
+        display: grid;
         padding-top: 10px;
         padding-left: 148px;
+        max-width: 984px;
     }
 }
 

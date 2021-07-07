@@ -10,7 +10,7 @@
         max-width: 340px;
         font-size: 42px;
         grid-area: title;
-        padding-top: 65px;
+        padding-top: 53px;
         padding-left: 25px;
     }
     
@@ -19,11 +19,13 @@
     .place__title{
         max-width: 440px;
         font-size: 72px;
+        padding-top: 65px;
     }
     
 }
 @media screen and (min-width:1280px) {
     .place__title{
+        max-width: 460px;
         font-size: 72px;
         padding-left: 0;
         padding-top: 75px;

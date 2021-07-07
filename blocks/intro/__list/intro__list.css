@@ -13,3 +13,15 @@
         padding-top: 30px;
     }
 }
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .intro__text {
+        max-width: 690px;
+        padding-top: 48px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .intro__text {
+        max-width: 690px;
+        padding-top: 50px;
+    }
+}

@@ -21,6 +21,7 @@
         width: 440px;
         height: 440px;
         padding-top: 48px;
+        margin: 0;
         }
     }
 @media screen and (min-width:1280px) {
@@ -28,5 +29,6 @@
         width: 460px;
         height: 460px;
         padding-top: 48px;
+        margin: 0;
         }
     }

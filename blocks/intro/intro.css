@@ -7,15 +7,15 @@
     padding-top: 70px;
     padding-left: 20px;
 }
-@media screen and (min-width: 425px) and (max-width: 768px){
+@media screen and (min-width: 728px) and (max-width: 1024x){
     .intro{
         padding-top: 90px;
         padding-left: 25px;
     }
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width: 1280x){
     .intro{
-        padding-top: 100px;
+        padding-top: 95px;
         padding-left: 50px;
     }
 }
