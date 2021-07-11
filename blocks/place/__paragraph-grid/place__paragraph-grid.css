@@ -6,11 +6,12 @@
 @media screen and (min-width:768px) {
     .place__paragraph-grid {
         padding-top: 60px;
-        padding-left: 0px;
+        padding-left: 6px;
     }
 }
 @media screen and (min-width:1024px)  {
     .place__paragraph-grid {
         padding-top:48px;
+        padding-left: 0px;
     }
 }

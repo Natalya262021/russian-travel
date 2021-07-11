@@ -20,14 +20,13 @@
 @media screen and (min-width:768px) {
   .place{
       display: grid;
-      grid-template-columns:repeat(2, minmax(342px, max-content));
+      grid-template-columns:repeat(2, minmax(360px, max-content));
       grid-template-rows:  minmax(46px, 92px) minmax(337px, max-content);
       grid-template-areas: "title website"
                           "image paragraph";
       text-align: inherit;
       padding-bottom: 0px;
       margin: 0;
-      column-gap: 25px;
   }
   .place:first-of-type {
     padding-top: 6px;
@@ -50,7 +49,6 @@
   .place{
     grid-template-columns:repeat(2, minmax(474px, max-content));
     grid-template-rows:  minmax(46px, 152px) minmax(447px, max-content);
-    column-gap: 0;
     }
     .place:first-of-type {
       padding-top: 13px;
