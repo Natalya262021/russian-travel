@@ -1,73 +1,79 @@
-@media screen and (min-width:320px) and (max-width:768px) {
-    
-.place:first-of-type{
-  padding-top: 60px;
+.place {
+  padding-bottom: 50px;
+  max-width: 320px;
+  margin: auto;
 }
+    
 .place:nth-child(2){
-  padding-top: 85px;
+  padding-top: 34px;
 }
 .place:nth-child(3){
-  padding-top: 55px;
+  padding-top: 4px;
 }
 .place:nth-child(4){
-  padding-top: 105px;
+  padding-top: 56px;
 }
 .place:nth-child(5){
-  padding-top: 110px;
+  padding-top: 55px;
 }
-}
-@media screen and (min-width:768px) and (max-width:1024px) {
+
+@media screen and (min-width:768px) {
   .place{
       display: grid;
-      grid-template-columns:repeat(2, minmax(340px, max-content));
-      grid-template-rows:  minmax(46px, max-content) minmax(337px, max-content);
+      grid-template-columns:repeat(2, minmax(342px, max-content));
+      grid-template-rows:  minmax(46px, 92px) minmax(337px, max-content);
       grid-template-areas: "title website"
                           "image paragraph";
       text-align: inherit;
+      padding-bottom: 0px;
+      margin: 0;
+      column-gap: 25px;
   }
   .place:first-of-type {
-    padding-top: 80px;
+    padding-top: 6px;
   }
   .place:nth-child(2){
-    padding-top: 20px;
+    padding-top: 22px;
   }
   .place:nth-child(3){
     padding-top: 20px;
   }
   .place:nth-child(4){
-    padding-top: 15px;
+    padding-top: 20px;
   }
   .place:nth-child(5){
     padding-top: 20px;
   }
 }
 
-@media screen and (min-width:1024px) and (max-width:1280px) {
-    .place {
-      display: grid;
+@media screen and (min-width:1024px) {
+  .place{
+    grid-template-columns:repeat(2, minmax(474px, max-content));
+    grid-template-rows:  minmax(46px, 152px) minmax(447px, max-content);
+    column-gap: 0;
     }
     .place:first-of-type {
-      padding-top: 20px;
+      padding-top: 13px;
     }
     .place:nth-child(2){
-      padding-top: 0px;
+      padding-top: 4px;
     }
     .place:nth-child(3){
       padding-top: 5px;
     }
     .place:nth-child(4){
-      padding-top: 15px;
+      padding-top: 80px;
     }
     .place:nth-child(5){
-      padding-top: 0px;
+      padding-top: 3px;
     }
 }
 @media screen and (min-width:1280px) {
     .place{
-        display: grid;
+      column-gap: 24px;
     }
     .place:first-of-type {
-      padding-top: 2px;
+      padding-top: 82px;
     }
     .place:nth-child(2){
       padding-top: 5px;
@@ -76,9 +82,6 @@
       padding-top: 0px;
     }
     .place:nth-child(4){
-      padding-top: 2px;
-    }
-    .place:nth-child(5){
-      padding-top: 0px;
+      padding-top: 84px;
     }
 }

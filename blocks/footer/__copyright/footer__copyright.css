@@ -1,8 +1,8 @@
 .footer__copyright {
     margin: 0;
     font-size: 14px;
-    line-height: 1.1;
-    padding-top: 30px;
+    line-height: 100%;
+    padding-top: 33px;
     padding-left: 20px;
     
 }
@@ -10,6 +10,7 @@
     .footer__copyright {
         padding-right: 25px;
         text-align: right;
+        line-height: 114%;
 }
 }
 @media screen and (min-width:1024px) {

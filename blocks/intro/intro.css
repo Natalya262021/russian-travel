@@ -3,25 +3,24 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    padding-top: 70px;
+    padding-top: 65px;
     padding-left: 20px;
 
 }
-@media screen and (min-width: 728px) and (max-width: 1024px){
+@media screen and (min-width: 728px) {
     .intro{
         padding-top: 90px;
         padding-left: 25px;
     }
 }
-@media screen and (min-width: 1024px) and (max-width: 1280px){
+@media screen and (min-width: 1024px) {
     .intro{
         padding-top: 95px;
         padding-left: 50px;
     }
 }
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) {
     .intro{
-        padding-top: 95px;
         padding-left: 150px;
     }
 }

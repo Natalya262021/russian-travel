@@ -4,14 +4,22 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width:740px;
 }
-@media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (min-width:768px) {
     .header{
         padding-top: 29px;
+        max-width:1000px;
     }
 }
-@media screen and (min-width:1024px) and (max-width:1280px){
+@media screen and (min-width:1024px) {
     .header{
         padding-top: 28px;
+        max-width: 1250px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .header{
+        max-width: 1280px;
     }
 }
