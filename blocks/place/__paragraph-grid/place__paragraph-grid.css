@@ -11,7 +11,7 @@
 }
 @media screen and (min-width:1024px)  {
     .place__paragraph-grid {
-        padding-top:48px;
+        padding-top:0px;
         padding-left: 0px;
     }
 }

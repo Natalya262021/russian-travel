@@ -19,7 +19,7 @@
     .place__image {
         width: 440px;
         height: 440px;
-        padding-top: 48px;
+        padding-top: 0px;
         }
     }
 @media screen and (min-width:1280px) {
